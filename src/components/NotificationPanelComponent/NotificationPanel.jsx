@@ -6,7 +6,7 @@ export const NotificationPanel = function (props) {
       className="d-flex justify-content-center pt-4 pb-4"
       style={{ backgroundColor: "#f2f2f2" }}
     >
-      <div className="" style={{ maxWidth: "720px" }}>
+      <div className="container-fluid" style={{ maxWidth: "720px" }}>
         <div className="row">
           <div className="col-md-10 d-flex align-items-center justify-content-center">
             <div>
