@@ -3,7 +3,7 @@ import NotificationPanel from "./../../components/NotificationPanelComponent/Not
 import Header from "./../../components/HeaderComponent/HeaderComponent";
 import Highlight from "./../../components/HighlightComponent/HighlightComponent";
 import Footer from "./../../components/FooterComponent/Footer";
-
+import Newsletter from "./../../components/NewsletterComponent/Newsletter";
 
 class HomeContainer extends Component {
   render() {
@@ -13,6 +13,7 @@ class HomeContainer extends Component {
         <Header />
         <Highlight />
         <Footer />
+        <Newsletter />
       </div>
     );
   }

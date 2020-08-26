@@ -1,0 +1,45 @@
+.newsletter
+    &-container
+        position: fixed
+        bottom: 0
+        background: $color-blue
+        background: rgba(0,123,193, 0.9)
+        color: $color-white
+        max-width: 640px
+
+    &-title
+        font-size: 1.6rem
+        font-weight: 600
+        line-height: $line-height-sm
+    &-description
+        font-size: $font-size-base - 1px
+
+    &-form
+        &-email
+            flex-grow: 3;
+            @media screen and (max-width: $break-small)
+                flex-grow: 1
+                width: 100%
+        &-submit
+            flex-grow: 1
+            .btn
+                background-color: $color-orange
+                color: white
+                float: right
+                @media screen and (max-width: $break-small)
+                    width: 100%
+            @media screen and (max-width: $break-small)
+                flex-grow: 1
+                width: 100%
+.form-control
+    border-radius: unset !important
+
+.close
+    position: relative;
+    top: -20px
+    right: -15px
+    color: white
+    &:after
+        color: white
+    &:hover
+        color: white

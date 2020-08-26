@@ -12,7 +12,7 @@ export const Highlight = function (props) {
           relief. User-centered program areas scale.
         </p>
       </div>
-      <div className="container-fluid" style={{ padding: "1.4rem" }}>
+      <div className="container-fluid highlight-list">
         <div className="d-flex justify-content-around flex-wrap highlight-container">
           <div className="highlight-card">
             <HighlightCard
