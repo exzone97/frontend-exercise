@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import NotificationPanel from "./../../components/NotificationPanelComponent/NotificationPanel";
 import Header from "./../../components/HeaderComponent/HeaderComponent";
 import Highlight from "./../../components/HighlightComponent/HighlightComponent";
+import Footer from "./../../components/FooterComponent/Footer";
+
 
 class HomeContainer extends Component {
   render() {
@@ -10,6 +12,7 @@ class HomeContainer extends Component {
         <NotificationPanel />
         <Header />
         <Highlight />
+        <Footer />
       </div>
     );
   }
