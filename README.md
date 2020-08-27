@@ -1,6 +1,6 @@
 ## Clone and Install Project
 
-1. You need to clone this project with `https://github.com/exzone97/frontend-exercise.git`
+1. You need to clone this project with `git clone https://github.com/exzone97/frontend-exercise.git`
 2. Install the dependencies with `npm install`
 
 ## Start Project
