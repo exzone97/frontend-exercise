@@ -1,0 +1,82 @@
+.background
+    background-image: url('./../images/work-desk__dustin-lee.jpg')
+    background-blend-mode: multiply
+    background-color: $color-blue
+    height: 90vh
+    background-size: cover
+    background-position: center
+    @media screen and (max-width: $break-very-small)
+        height: 100vh !important
+    @media screen and (max-width: $break-small)
+        height: 120vh !important
+    @media screen and (max-width: $break-large)
+        height: 110vh !important
+    @media screen and (min-width: $break-full-hd)
+        height: 75vh !important
+    @media screen and (min-width: $break-4k)
+         height: 28vh !important
+    &-logo
+        width: 50px
+        position: relative
+        top: 1.5rem
+        left: 2rem
+
+    &-text
+        text-align: center
+        position: relative
+        top: 50%
+        color: white
+        transform: translateY(-70%)
+        padding: 1rem
+        @media screen and (max-width: $break-very-small)
+            transform: translateY(-58%) !important
+        @media screen and (max-width: $break-small)
+            transform: translateY(-60%) !important
+        @media screen and (max-width: $break-large)
+            transform: translateY(-58%) !important
+.header
+    &-title
+        font-size: $font-size-xl-2
+        line-height: $line-height-xs
+        @media screen and (max-width: $break-very-small)
+            font-size: $font-size-xl-1
+        @media screen and (max-width: $break-small) 
+            line-height: $line-height-base !important;
+        @media screen and (max-width: $break-large) 
+            line-height: $line-height-xs
+
+    &-subtitle
+        font-size: $font-size-xl-1
+        font-weight: $font-weight-bold
+        @media screen and (max-width: $break-very-small)
+            font-size: $font-size-xl + 2px
+
+    &-text
+        font-size: $font-size-lg
+        line-height: $line-height-base
+        max-width: 530px
+        @media screen and (max-width: $break-very-small)
+            font-size: $font-size-lg + 1px !important
+        @media screen and (max-width: $break-small) 
+            line-height: $line-height-base !important;
+        @media screen and (max-width: $break-large)
+            font-size: $font-size-lg - 1px
+        
+
+    &-button
+        font-size: $font-size-lg - 4px
+        font-weight: $font-weight-bold
+        padding-left: 1.7rem
+        padding-right: 1.7rem
+        padding-top: 1rem
+        padding-bottom: 1rem
+        border: 2.5px solid white
+        border-radius: $border-radius-sm
+        background-color: transparent
+        color: $color-white
+
+        &:hover
+            background-color: $color-white
+            color: $color-dark-blue
+        &-container
+            padding-op: 1.5rem;
