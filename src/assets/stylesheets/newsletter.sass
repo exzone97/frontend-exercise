@@ -6,13 +6,21 @@
         background: rgba(0,123,193, 0.9)
         color: $color-white
         max-width: 640px
-
+        display: none
+    &-inside
+        padding-top: 1.5rem
+        padding-bottom: 1.5rem
+        padding-left: 2rem
+        padding-right: 2rem
+        @media screen and (max-width: $break-small)
+            padding: 1rem
     &-title
-        font-size: 1.6rem
-        font-weight: 600
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem
+        font-weight: $font-weight-bold
         line-height: $line-height-sm
     &-description
-        font-size: $font-size-base - 1px
+        font-size: $font-size-base
 
     &-form
         &-email
@@ -20,14 +28,16 @@
             @media screen and (max-width: $break-small)
                 flex-grow: 1
                 width: 100%
+                padding-bottom: 1rem
         &-submit
             flex-grow: 1
             .btn
                 background-color: $color-orange
-                color: white
+                color: $color-white
                 float: right
+                width: 90%
                 @media screen and (max-width: $break-small)
-                    width: 100%
+                    width: 100% !important
             @media screen and (max-width: $break-small)
                 flex-grow: 1
                 width: 100%
@@ -38,8 +48,11 @@
     position: relative;
     top: -20px
     right: -15px
-    color: white
+    color: $color-white
+    @media screen and (max-width: $break-small)
+        top: -10px
+        right: -5px
     &:after
-        color: white
+        color: $color-white
     &:hover
-        color: white
+        color: $color-white

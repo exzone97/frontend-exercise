@@ -8,21 +8,20 @@ class NotificationPanel extends Component {
   }
 
   handleClick() {
-    $(".notification-container").animate({ height: "0px" }, 1000);
-    setTimeout(function () {
-      $(".notification-container").removeClass("d-flex").addClass('d-none');
-    }, 800);
+    /**
+     * handle function when button "Got It" is clicked. This fucntion calling effect with jquery. and remove class "d-flex" and add class "d-none"
+     */
+    $(".notification-container").slideUp("slow", function () {
+      $(".notification-container").removeClass("d-flex").addClass("d-none");
+    });
   }
 
   render() {
     return (
       <div className="d-flex sticky-top justify-content-center notification-container">
-        <div className="container-fluid pt-3 pb-3" style={{ maxWidth: "720px" }}>
+        <div className="container-fluid pt-3 pb-3 notification-wrapper">
           <div className="d-flex flex-wrap justify-content-between">
-            <div
-              className="d-flex align-items-center justify-content-center"
-              style={{ width: "600px" }}
-            >
+            <div className="d-flex align-items-center justify-content-center notification-content-container">
               <div className="notification-text">
                 By accessing and using this website, you acknowledge that you
                 have read and understand our <a href="./#">Cookie Policy</a>,{" "}
@@ -31,7 +30,7 @@ class NotificationPanel extends Component {
               </div>
             </div>
             <div className="d-flex align-items-center justify-content-center">
-              <div className="">
+              <div>
                 <button
                   onClick={this.handleClick}
                   className="btn notification-button"
