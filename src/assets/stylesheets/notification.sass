@@ -1,0 +1,26 @@
+.notification
+    &-wrapper
+        max-width: 720px
+    &-content-container
+        width: 600px
+    &-text
+        font-size: $font-size-base
+        @media screen and (max-width: $break-very-small)
+            font-size: $font-size-xs !important
+        @media screen and (max-width: $break-small)
+            font-size: $font-size-sm
+        a
+            color: $color-blue !important
+            font-weight: $font-weight-bold;
+    &-button
+        padding-left: 1.5rem
+        padding-right: 1.5rem
+        background-color: $color-blue
+        border-color $color-blue
+        color: $color-white
+
+        &:hover
+            color: $color-white
+    &-container
+        background-color: $color-white-grey
+    

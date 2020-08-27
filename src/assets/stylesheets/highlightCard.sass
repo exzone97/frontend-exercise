@@ -1,0 +1,25 @@
+.highlight-card
+    width: 31%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    @media screen and (max-width: $break-small) 
+        width: 100% !important;
+    @media screen and (max-width: $break-large) 
+        width: 48%;
+
+    &-description
+        font-size: $font-size-sm + 1.3px;    
+        @media screen and (max-width: $break-small) 
+            font-size: $font-size-sm + 1.2px;    
+    &-title
+        font-size: $font-size-xl;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    &-icon
+        font-size: $font-size-xl + 4px;
+        color: $color-dark-smoke-grey
+    &-border
+        border: 1.5px solid $color-dark-smoke-grey
+        -moz-box-shadow:    inset 0 0 3px #fff, 0 0 3px #fff;
+        -webkit-box-shadow: inset 0 0 3px #fff, 0 0 3px #fff;
+        box-shadow:         inset 0 0 3px #fff, 0 0 3px #fff;
