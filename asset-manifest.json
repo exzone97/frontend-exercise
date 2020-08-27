@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontend-exercise/static/css/main.e7a0914a.chunk.css",
+    "main.js": "/frontend-exercise/static/js/main.6d9cde7c.chunk.js",
+    "main.js.map": "/frontend-exercise/static/js/main.6d9cde7c.chunk.js.map",
+    "runtime-main.js": "/frontend-exercise/static/js/runtime-main.ae5c7828.js",
+    "runtime-main.js.map": "/frontend-exercise/static/js/runtime-main.ae5c7828.js.map",
+    "static/js/2.de4ab26d.chunk.js": "/frontend-exercise/static/js/2.de4ab26d.chunk.js",
+    "static/js/2.de4ab26d.chunk.js.map": "/frontend-exercise/static/js/2.de4ab26d.chunk.js.map",
+    "index.html": "/frontend-exercise/index.html",
+    "precache-manifest.02a9afa3ff5ad1e4adc44c9190f6c68f.js": "/frontend-exercise/precache-manifest.02a9afa3ff5ad1e4adc44c9190f6c68f.js",
+    "service-worker.js": "/frontend-exercise/service-worker.js",
+    "static/css/main.e7a0914a.chunk.css.map": "/frontend-exercise/static/css/main.e7a0914a.chunk.css.map",
+    "static/js/2.de4ab26d.chunk.js.LICENSE.txt": "/frontend-exercise/static/js/2.de4ab26d.chunk.js.LICENSE.txt",
+    "static/media/index.sass": "/frontend-exercise/static/media/work-desk__dustin-lee.a5a74b4f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae5c7828.js",
+    "static/js/2.de4ab26d.chunk.js",
+    "static/css/main.e7a0914a.chunk.css",
+    "static/js/main.6d9cde7c.chunk.js"
+  ]
+}
